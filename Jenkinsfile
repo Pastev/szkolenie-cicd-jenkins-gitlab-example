@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'git@github.com:Pastev/szkolenie-cicd-jenkins-gitlab-example.git'
+                git branch: 'main', url: 'https://github.com/spring-petclinic/spring-framework-petclinic.git'
             }
         }
         stage('Build') {
