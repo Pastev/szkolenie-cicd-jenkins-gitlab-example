@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'git@github.com:Pastev/szkolenie-cicd-jenkins-gitlab-example.git'
+                git branch: 'master', url: 'git@github.com:Pastev/szkolenie-cicd-jenkins-gitlab-example.git'
             }
         }
         stage('Build') {
